@@ -1,0 +1,235 @@
+body {
+    font-family: "Nunito", sans-serif;
+  }
+  
+  .top-row-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .top-row-items {
+    font-size: 0.9em;
+    font-weight: 700;
+  
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .items {
+    display: flex;
+    color: #fa7e02;
+    border: 2px solid #e37005;
+    border-radius: 5px;
+    padding: 13px;
+    font-size: 0.9em;
+    font-weight: 700;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+  }
+  
+  hr {
+    display: block;
+  
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    -webkit-box-shadow: 0 0 0.9px 0 #666;
+    -moz-box-shadow: 0 0 0.9px 0 #666;
+    box-shadow: 0 0 0.9px 0 #666;
+  }
+  
+  .video {
+    width: 20px;
+    padding-left: 50px;
+    align-items: center;
+  }
+  
+  .practice-container {
+    display: flex;
+    margin: 70px 80px 40px 40px;
+    justify-content: space-around;
+  }
+  
+  .practice {
+    font-size: 3em;
+    font-weight: 800;
+    color: #4c4c4c;
+  }
+  
+  .bullets {
+    font-size: 2em;
+  }
+  
+  button {
+    font-family: "Nunito", sans-serif;
+    background-color: #fa811b;
+    color: white;
+    border: solid;
+    border-color: #fa811b;
+    font-size: 1.1em;
+    font-weight: 800;
+    border-radius: 5px;
+    padding: 12px;
+    padding-left: 22px;
+    padding-right: 20px;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color: #ff8e2e;
+    border-color: #ff8e2e;
+  }
+  
+  .line {
+    display: block;
+  
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    padding-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    -webkit-box-shadow: 0 0 0.9px 0 #666;
+    -moz-box-shadow: 0 0 0.9px 0 #666;
+    box-shadow: 0 0 0.9px 0 #666;
+  }
+  
+  .institutions-container {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 70px 170px 40px 170px;
+  }
+  
+  .institutions {
+    margin-right: 200px;
+  }
+  
+  .view:hover {
+    cursor: pointer;
+  }
+  
+  .demands-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .demands-items {
+    width: 21%;
+    text-align: center;
+    font-size: 1.35em;
+    font-weight: 500;
+    color: #636262;
+  }
+  
+  .test-requirements {
+    font-size: 2.4em;
+    font-weight: 800;
+    color: #4c4c4c;
+    margin-left: 5%;
+  }
+  
+  .requirements-container {
+    display: flex;
+    justify-content: left;
+    flex-wrap: nowrap;
+    font-size: 1.35em;
+    margin-left: 5%;
+  }
+  
+  .requirements-items {
+    font-size: 1.05em;
+    flex-wrap: nowrap;
+    font-weight: 500;
+    color: #636262;
+  }
+  
+  .inside-container {
+    display: flex;
+    align-items: center;
+    line-height: 0px;
+  }
+  
+  .wrapper {
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+    margin-left: 5%;
+    font-size: 1.37em;
+    font-weight: 800;
+  }
+  
+  .nested {
+    display: grid;
+    grid-template-columns: 1fr 25fr;
+    font-weight: 500;
+    color: #636262;
+    grid-gap: 25px;
+  }
+  
+  .english {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: 800;
+    color: #2e2d2d;
+    font-size: 1.35em;
+  }
+  
+  .bottom-most {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+  }
+
+  .panel {
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: navy;
+}
+ 
+.question {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+ 
+.options {
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    margin-right: 1046px;
+    top: 40%;
+    left: 40%;
+}
+ 
+button {
+    margin-right: 75px;
+    margin-top: 8%;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #4f98c2;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+ 
+#score {
+    font-size: 30px;
+    color: darkslategray;
+}
