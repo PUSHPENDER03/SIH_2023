@@ -15,7 +15,11 @@ body {
     text-align: center;
     cursor: pointer;
   }
-  
+
+    a {
+      color: #2e2d2d;
+      text-decoration-line: none;
+    }
   .items {
     display: flex;
     color: #fa7e02;
@@ -208,7 +212,7 @@ body {
 .options {
     font-size: 20px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1 , 1fr);
     grid-gap: 10px;
     margin-top: 10px;
     margin-bottom: 20px;

@@ -10,9 +10,9 @@ const Questions = [{
 },
 {
     q: "In which of the following areas is child labour found in abundance",
-    a: [{ text: "Randi Bazar", isCorrect: false, isSelected: false },
-    { text: "Fr.CRCE", isCorrect: false },
-    { text: "SSR's Home", isCorrect: false },
+    a: [{ text: "Hotel Industry", isCorrect: false, isSelected: false },
+    { text: "Firework Manufacturing", isCorrect: false },
+    { text: "Diamond Polishing", isCorrect: false },
     { text: "All of the above", isCorrect: true }
     ]
  

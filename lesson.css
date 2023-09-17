@@ -16,6 +16,11 @@ body {
   cursor: pointer;
 }
 
+a {
+  color: #2e2d2d;
+  text-decoration-line: none;
+}
+
 .items {
   display: flex;
   color: #fa7e02;
