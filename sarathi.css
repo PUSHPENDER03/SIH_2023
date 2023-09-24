@@ -172,6 +172,10 @@ p[sentTime]:hover::after {
     justify-content: space-evenly;
 }
 
+.top-row-items:hover{
+    color: gray;
+}
+
 a {
     color: #2e2d2d;
     text-decoration-line: none;

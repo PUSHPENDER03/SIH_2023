@@ -24,6 +24,10 @@ a {
   cursor: pointer;
 }
 
+.top-row-items:hover{
+  color: gray;
+}
+
 .items {
   display: flex;
   color: #fa7e02;
